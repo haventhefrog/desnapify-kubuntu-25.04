@@ -36,5 +36,5 @@ Pin-Priority: 1001
 Package: thunderbird*
 Pin: release o=Ubuntu
 Pin-Priority: -1' | sudo tee /etc/apt/preferences.d/mozillateamppa
-sudo apt update && sudo apt install firefox firefox-l10n-hu thunderbird -y
+sudo apt update && sudo apt install firefox firefox-l10n-* thunderbird -y
 
